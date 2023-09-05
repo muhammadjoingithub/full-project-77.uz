@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>77.uz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+        <!-- nav -->
+        <div class="container">
+          
+            <nav>
+               <div class="nav_start">
+            <div class="flags">
+                <img class="russian" src="./images/russian.png" alt="">
+                <!-- <img class="uzbek" src="./images/uzbekflag.png" alt=""> -->
+
+                <select>
+                
+                    <option>Русский</option>
+                  
+                    <option>O'zbekcha</option>
+                </select>
+            </div>
+            <h3><img src="./images/phone.png" alt=""><span>+998</span>  71 200 70 07</h3>
+               </div>
+               <img class="headlogo" src="./images/logohead.png" alt="">
+               <div class="nav_end">
+                <!-- <a class="login-link" href="#">
+                    <p class="enter">Войти
+
+                    </p>
+                  <img src="./images/login.png" alt="">
+                </a> -->
+                <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button" style="background-color: rgb(150, 144, 144); color: white; width: auto; border: none; outline: none;">Войти  <img src="./images/login.png" alt=""></a>
+               
+       <div class="modal fade sec-modal" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel">Добро пожаловать!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body body-modaltype">
+            <p class="advert">Войти в систему чтобы торговать в системе</p>
+         <form class="form">
+            <label class="label">
+                Логин:  
+
+            </label><br>
+            <input type="text" class="form_input" placeholder="Введите логин">       
+          <br> <br> <label class="label password_label">
+                Пароль: 
+              
+            </label><br>
+            <input type="password" class="form_input password_input" placeholder="Введите пароль">
+            <div class="password_btn  " onclick="showPassword()"><i class="fa-regular fa-eye" style="color: #9bacca;"></i></div>
+              <a href="#" class="new-password">Забыли пароль?</a>
+<!--   <div class="new-call">
+  <center>
+    <img src="./images/error.png" alt="">
+    <p class="pull-back">Забыли пароль? Для восстановления пароля обратитесь администратору</p>
+    <button class="btn btn-call">
+        <img src="./images/phone.png" alt="">
+        +998 97 450 45 00
+    </button>
+  </center>
+  </div> -->
+           
+
+         <button type="button" class="btn btn-login">Войти</button>
+           
+         <center>
+            <p class="adver">Хотите стать продавцом?</p>
+         </center>
+
+            
+         </form>
+        </div>
+        <div class="modal-footer">
+            
+          <button class="btn btn-logintype" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Подать заявку</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel2">Подать заявку</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="advert">Войти в систему чтобы торговать в системе</p>
+            <form class="form">
+               <label class="label">
+                Ф.И.О.:  
+   
+               </label><br>
+               <input type="text" class="form_input" placeholder="Введите вашу Ф.И.О.">       
+             <br><label class="label password_label">
+                Название продукта: 
+                 
+               </label><br>
+               <input type="text" class="form_input password_input" placeholder="Введите название продукта">
+               <label class="label">
+                Категория:  
+   
+               </label><br>
+               <select class="form_select">
+                <option class="selects-option" value="выб">Выберите категорию</option>
+                <option class="selects-option" value="хол">Холодильники</option>
+                <option class="selects-option" value="телв">Телевизоры</option>
+                <option class="selects-option" value="на">Наушники и аксессуары</option>
+                <option class="selects-option" value="ку">Кухонная мебель</option>
+                <option class="selects-option" value="тел">Телефоны</option>
+                <option class="selects-option" value="тех">Бытовая техника</option>
+                <option class="selects-option" value="муж">Мужчинам</option>
+                <option class="selects-option" value="жен">Женщинам</option>
+                <option class="selects-option" value="ап">Аптечная техника</option>
+
+               </select>
+               <label class="label password_label">
+                Телефон номер: 
+              
+            </label><br>
+            <input type="number" class="form_input password_input" placeholder="+998 (__) ___-__-__">
+
+            <label class="label password_label">
+                Адресс: 
+                 
+               </label><br>
+               <input type="text" class="form_input password_input" placeholder="Введите свой адрес">
+               <br>
+<br>
+            <button type="button" class="btn btn-login">Подать заявку</button>
+
+            <center>
+                <p class="adver">Если вы продавец, войдите на платформу</p>
+             </center>
+             <!--   <div class="new-call">
+    <center>
+      <img src="./images/wishlist.png" alt="">
+      <p class="pull-back2">Ваша заявка принята! </p>
+      <p class="pull-back">Наши сотрудники свяжутся с вами в ближайшее время</p>
+      <button class="btn btn-call">
+        Спасибо
+      </button>
+    </center>
+    </div> -->
+
+
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-logintype" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Войти</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+                </a>
+               </div>
+  
+
+
+   
+
+ 
+             
+            </nav>
+        </div>
+
+        <!-- empty-space -->
+        <div class="empty-space"></div>
+
+        <!-- main section -->
+
+     <div class="container">
+        <main class="kategory-search">
+            <!-- search-section -->
+            <div class="search-section">
+               <div class="serch-form">
+                <form  action="">
+                  <img src="./images/search.png" alt="">
+                  <input id="search-input" type="text" placeholder="Что вы ищите?">
+                  <button id="search-button"><a href="./results-search.html">Поиск</a></button>
+              </form>
+               </div>
+                <!-- title -->
+                <h2>Категории</h2>
+            <p class="title">Вы можете найти все категории, которые вам нужны от покупателя</p>
+            </div>
+
+            <!-- search-results -->
+
+
+
+            <!-- kategory-links -->
+            <div class="category-links">
+               
+               <!-- Json Api here -->
+            </div>
+        </main>
+     </div>
+
+     <div class="container-fluid main2">
+        <div class="account">
+            <h2>Объявления</h2>
+        <p class="title">Вы можете найти все категории, которые вам нужны от покупателя</p>
+        </div>
+        <div class="container  main-two">
+           
+            <!--Here Json Api  Market  -->
+        </div>
+        
+        <center><button class="show-more">Загрузить больше <img src="./images/dropdown.png" alt=""></button></center>
+        <br>
+        <br>
+     </div>
+
+
+     <div class="container-fluid background-imagefooter">
+          <footer class="container footer">
+            <center>
+            <img class="logo" src="./images/logo77.png" alt="">
+            <div class="advertise">77.uz marketplace - это виртуальная платформа в Узбекистане, которая облегчает покупки и продажи, связывая продавцов с потенциальными клиентами. </div>
+            <div class="footer-links">
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>Доска объявлений</p>
+                </div>
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>Условия пользования</p>
+                </div>
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>+998 88 500 50 00</p>
+                </div>
+            </div>
+            </center>
+          </footer>
+     </div>
+     <div class="container-fluid end">
+        <div class="container end-logo">
+              <div class="address">© 77.uz
+                2023. Все права защищены
+              </div>
+             <img src="./images/uic-logo.png" alt="">
+
+        </div>
+     </div>
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="./js.js"></script>
+</body>
+</html>

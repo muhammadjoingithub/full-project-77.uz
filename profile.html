@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>77.uz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./navtab.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+        <!-- nav -->
+        <div class="container">
+          
+            <nav>
+               <div class="nav_start">
+            <div class="flags">
+                <!-- <img class="russian" src="./images/russian.png" alt=""> -->
+                <img class="uzbek" src="./images/uzbekflag.png" alt="">
+
+                <select>
+                
+                    <option>Русский</option>
+                  
+                    <option>O'zbekcha</option>
+                </select>
+            </div>
+            <h3><img src="./images/phone.png" alt=""><span>+998</span>  71 200 70 07</h3>
+               </div>
+               <img class="headlogo" src="./images/logohead.png" alt="">
+               <div class="nav_end">
+                <a class="login-link profile" href="./profile.html">
+                    <p class="enter"> <img src="./images/profil.png" alt="">Шохрух Шавкиев</p>
+                  <img src="./images/right-arrow.png" alt="">
+                </a>
+               </div>
+            </nav>
+        </div>
+
+        
+      
+
+     <!-- results -->
+<div class="container-fluid main-results">
+    <div class="results-space container">
+        <h4>Главная <span id="num-span"> .  Профиль</span></h4>
+    </div>
+
+    <div class="container profile-tabs ">
+         <div class="profile-app">
+           <center>
+            <div class="profil-shadow">
+                <img src="./images/ava.png" alt="">
+                    <p class="enter-ava"> Шохрух Шавкиев</p>
+                
+               
+               </div>
+               <hr>
+            
+               <button class="tablinks obyavleniya" onclick="openCity(event, 'Paris')">
+                <img src="./images/main.png" alt="">
+                <p>Мои объявления</p>
+            </button>
+               <button class="tablinks obyavleniya" onclick="openCity(event, 'London')">
+                <img src="./images/ic0n1.png" alt="">
+                <p>Персональные данные</p>
+            </button>
+               
+         
+               
+               
+               <hr>
+               <a href="./single.html" class="get-out">
+                <img src="./images/ic0n2.png" alt="">
+                <p>Выход</p>
+               </a>
+           </center>
+
+         </div>
+         <div class="tabs">
+              <div class="new-advertise">
+                  <h1>Мои объявления</h1>
+
+                  <a href="./createadds.html"><button class="btn create-ad">Создать объявление  + </button></a>
+              </div>
+
+              <div id="Paris" class="tabcontent tab-percent">
+                
+              </div>
+              <br>
+              <br>
+
+              <div id="London" class="tabcontent  single-profile other1">
+                <div class="again">
+                
+                        <img src="./images/shoh1.png" alt="">
+                        <div class="display-single">
+                            <h2>Шохрух Шавкиев</h2>
+                           <div class="display-btn">
+                            <button><img src="./images/phone.png" alt="">+998 88 033 18 05</button><button><img src="./images/location.png" alt="">8897+PMP, Almachi Street, Тоshkent, Узбекистан</button>
+                           </div>
+                        </div>
+                </div>
+              </div>
+         </div>
+    </div>
+
+
+ <br>
+ <br>
+</div>
+
+
+     
+
+
+
+
+<br>
+<br>
+
+    
+<!-- footer -->
+     <div class="container-fluid background-imagefooter">
+          <footer class="container footer">
+            <center>
+            <img class="logo" src="./images/logo77.png" alt="">
+            <div class="advertise">77.uz marketplace - это виртуальная платформа в Узбекистане, которая облегчает покупки и продажи, связывая продавцов с потенциальными клиентами. </div>
+            <div class="footer-links">
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>Доска объявлений</p>
+                </div>
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>Условия пользования</p>
+                </div>
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>+998 88 500 50 00</p>
+                </div>
+            </div>
+            </center>
+          </footer>
+     </div>
+     <div class="container-fluid end">
+        <div class="container end-logo">
+              <div class="address">© 77.uz
+                2023. Все права защищены
+              </div>
+             <img src="./images/uic-logo.png" alt="">
+
+        </div>
+     </div>
+
+
+
+<script src="./result.js"></script>
+<script src="./tab.js"></script>
+<script src="./tab.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="./js.js"></script>
+</body>
+</html>

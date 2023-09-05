@@ -1,0 +1,11 @@
+.categor{
+    width: 45%;
+}
+.categor-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categor-value h6{
+  font-size: 5px;
+}

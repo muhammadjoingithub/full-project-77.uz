@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>77.uz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./category.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+        <!-- nav -->
+        <div class="container">
+          
+            <nav>
+               <div class="nav_start">
+            <div class="flags">
+                <!-- <img class="russian" src="./images/russian.png" alt=""> -->
+                <img class="uzbek" src="./images/uzbekflag.png" alt="">
+
+                <select>
+                
+                    <option>Русский</option>
+                  
+                    <option>O'zbekcha</option>
+                </select>
+            </div>
+            <h3><img src="./images/phone.png" alt=""><span>+998</span>  71 200 70 07</h3>
+               </div>
+               <img class="headlogo" src="./images/logohead.png" alt="">
+               <div class="nav_end">
+                <a class="login-link profile" href="./profile.html">
+                    <p class="enter">Войти</p>
+                  <img src="./images/login.png" alt="">
+                </a>
+               </div>
+            </nav>
+        </div>
+
+        
+      
+
+     <!-- results -->
+<div class="container-fluid main-results">
+    <div class="results-space container">
+        <h4>Главная <span id="num-span1"> .     Профиль</span><span id="num-span">  .  Создать объявления</span></h4>
+    </div>
+    <div class="container obv">
+       
+
+        <h6>Создать объявления</h6>
+        <div class="create-adds">
+       
+
+            <h4>Контактная информация</h4>
+                <form action="" class="create-login">
+                  <label class="add-label" for="">Ф.И.О.</label>
+                  <br>
+                  <input class="add-login" type="text" placeholder="Шохрух Шавкиев Уктамович">
+                  <br>
+                <div class="flex-lab">
+                    <div class="flex-label">
+                        <label class="add-label"  for="">Номер телефона</label>
+                        <br>
+                        <input class="add-login add-l"  type="number" placeholder="+998 99 400 00 00">
+                     </div>
+                     <div class="flex-label">
+                        <label class="add-label" for="">Адресс</label>
+                        <br>
+                        <input class="add-login add-l"  type="number" placeholder="8897+PMP, Almachi Street, Тоshkent, Узбекистан">
+                     </div>
+                </div>
+                </form>
+        </div>
+        <br>
+
+        <div class="create-adds">
+       
+
+            <h4>Необходимая информация</h4>
+                <form action="" class="create-login">
+                  <label class="add-label" for="">Название продукта</label>
+                  <br>
+                  <input class="add-login" type="text" placeholder="Введите название">
+                  <br>
+                  <label class="add-label" for="">Категория</label>
+                  <br>
+                  <!-- modal -->
+                  <!-- Button trigger modal -->
+<button type="button" class="btn add-login displ" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Выберите категорию  <img src="./images/right-arrow.png" alt="">
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body   categor-flex">
+           <!--  -->
+
+
+           <div class="nav-item dropdown links categor">
+            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+               
+                    <div class="comp1">
+                     <img  src="./images/profil.png" alt="">
+                    </div>
+                     <div class="values categor-value">
+                         <h6>Товары для животных</h6>
+                         <p>12 подкатегорий</p>
+                     </div>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Смартфоны<img src="./images/right-arrow.png" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">Фитнес браслеты<img src="./images/right-arrow.png" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">Ремешки для часов и смарт-часов<img src="./images/right-arrow.png" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">Смарт-часы<img src="./images/right-arrow.png" alt=""></a></li>
+              <li><a class="dropdown-item" href="#">Запчасти для смартфонов<img src="./images/right-arrow.png" alt=""></a></li>
+        
+            </ul>
+        </div>
+        <div class="nav-item dropdown links categor">
+          <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+             
+                  <div class="comp1">
+                   <img  src="./images/profil.png" alt="">
+                  </div>
+                   <div class="values">
+                       <h6>Товары для животных</h6>
+                       <p>12 подкатегорий</p>
+                   </div>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Смартфоны<img src="./images/right-arrow.png" alt=""></a></li>
+            <li><a class="dropdown-item" href="#">Фитнес браслеты<img src="./images/right-arrow.png" alt=""></a></li>
+            <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+            <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+            <li><a class="dropdown-item" href="#">Ремешки для часов и смарт-часов<img src="./images/right-arrow.png" alt=""></a></li>
+            <li><a class="dropdown-item" href="#">Смарт-часы<img src="./images/right-arrow.png" alt=""></a></li>
+            <li><a class="dropdown-item" href="#">Запчасти для смартфонов<img src="./images/right-arrow.png" alt=""></a></li>
+      
+          </ul>
+      </div>
+           <!--  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                  <!-- modal -->
+
+                  <br>
+                  <label class="add-label" for="">Описание</label>
+                  <br>
+                  <input class="add-login message" type="message" placeholder="Введите описание">
+                  <br>
+                  <hr style="width: 98%;">
+                  
+                  <label class="add-label" for="">Цена</label><br>
+                  <select class="form_select add-login" aria-placeholder="UZS">
+                    <option class="add-select" value="выб">Введите сумму</option>
+                    <option class="add-select" value="хол">
+                        <p class="money first-item2">2 599 000<span>UZS</span></p>
+                    </option>
+                    <option class="add-select" value="телв"> <p class="money first-item2">2 599 000<span>UZS</span></p></option>
+                    <option class="add-select" value="на"> <p class="money first-item2">309 000<span>UZS</span></p></option>
+                    <option class="add-select" value="ку"> <p class="money first-item2">4 009 000<span>UZS</span></p></option>
+                    <option class="add-select" value="тел"> <p class="money first-item2">6 908 000<span>UZS</span></p></option>
+                    <option class="add-select" value="тех"> <p class="money first-item2">10 599 000<span>UZS</span></p></option>
+                    <option class="add-select" value="муж"> <p class="money first-item2">9 599 000<span>UZS</span></p></option>
+                    <option class="add-select" value="жен"> <p class="money first-item2">10 456 000<span>UZS</span></p></option>
+                    <option class="add-select" value="ап"> <p class="money first-item2">20 599 000<span>UZS</span></p></option>
+    
+                   </select>
+
+
+               
+                </form>
+        </div>
+        <br>
+        <div class="fotos">
+            <h2>Фото</h2>
+            <h3>Первое фото будет на обложке объявления. Перетащите, чтобы изменить порядок.</h3>
+
+            <div class="choose-foto">
+                <img src="./images/car1.png" alt="">
+                <img src="./images/car2.png" alt="">
+
+                <img src="./images/car3.png" alt="">
+            
+                <img src="./images/car5.png" alt="">
+
+                <img src="./images/car6.png" alt="">
+                <img src="./images/car6.png" alt="">
+
+
+                
+
+            </div>
+        </div>
+        <br>
+        
+
+        <div class="agree">
+            <div class="agre">
+                <form action="">
+                    <input type="checkbox">
+                    <p>Даю свое согласие <a href="#">правилами пользования</a> и обработки моих данных</p>
+                </form>
+            </div>
+            <div class="buttons-agree">
+                <button type="button" class="btn add-login displ kane" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Отменить
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body trash">
+                          <center>
+                            <img src="./images/Wishlist (Solid).png" alt="">
+                            <h3>Отменить создания объявления</h3>
+                            <p>Вы точно хотите отменить создание объявления, все ваши изменения не будут сохранены</p>
+                          </center>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn " data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn ">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <button class="btn-agree">Опубликовать</button>
+            </div>
+        </div>
+
+        <!-- ceate -other types -->
+    </div>
+   
+
+   
+
+<br>
+<br>
+<br>
+ 
+</div>
+
+
+     
+
+
+
+
+
+
+    
+<!-- footer -->
+     <div class="container-fluid background-imagefooter">
+          <footer class="container footer">
+            <center>
+            <img class="logo" src="./images/logo77.png" alt="">
+            <div class="advertise">77.uz marketplace - это виртуальная платформа в Узбекистане, которая облегчает покупки и продажи, связывая продавцов с потенциальными клиентами. </div>
+            <div class="footer-links">
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>Доска объявлений</p>
+                </div>
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>Условия пользования</p>
+                </div>
+                <div class="footer-link">
+                    <img src="./images/symbol.png" alt="">
+                    <p>+998 88 500 50 00</p>
+                </div>
+            </div>
+            </center>
+          </footer>
+     </div>
+     <div class="container-fluid end">
+        <div class="container end-logo">
+              <div class="address">© 77.uz
+                2023. Все права защищены
+              </div>
+             <img src="./images/uic-logo.png" alt="">
+
+        </div>
+     </div>
+
+
+
+<script src="./result.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="./js.js"></script>
+</body>
+</html>
