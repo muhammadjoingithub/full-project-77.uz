@@ -137,4 +137,6 @@ paris.forEach((item) => {
     <p class="money">${item.money}<span>UZS</span></p>
  </div>
    `
+ 
 })
+

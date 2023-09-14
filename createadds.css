@@ -1,0 +1,21 @@
+.old-type{
+    width: 90%;
+    margin-top: 20px;
+   
+}
+#search-input{
+    width: 60%;
+}
+.old-categor{
+    width: 100%;
+}
+.categor-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.values h6{
+   font-size: 20px;
+   text-align: left;
+}

@@ -1557,12 +1557,15 @@ linear-gradient(0deg, #EAEDF0, #EAEDF0);
 color: black;
 
 }
-.display-btn{
+.display-btn{   
     gap: 10px;
   display: flex;
     flex-wrap: wrap;
 
 }
-
+.dropdown-toggle{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 

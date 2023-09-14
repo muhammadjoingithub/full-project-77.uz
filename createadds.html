@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./category.css">
+   <link rel="stylesheet" href="./createadds.css">
     <link rel="stylesheet" href="./responsive.css">
 </head>
 <body>
@@ -98,40 +99,25 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Выберите категорию</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body   categor-flex">
            <!--  -->
 
-
-           <div class="nav-item dropdown links categor">
-            <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
-               
-                    <div class="comp1">
-                     <img  src="./images/profil.png" alt="">
-                    </div>
-                     <div class="values categor-value">
-                         <h6>Товары для животных</h6>
-                         <p>12 подкатегорий</p>
-                     </div>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Смартфоны<img src="./images/right-arrow.png" alt=""></a></li>
-              <li><a class="dropdown-item" href="#">Фитнес браслеты<img src="./images/right-arrow.png" alt=""></a></li>
-              <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
-              <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
-              <li><a class="dropdown-item" href="#">Ремешки для часов и смарт-часов<img src="./images/right-arrow.png" alt=""></a></li>
-              <li><a class="dropdown-item" href="#">Смарт-часы<img src="./images/right-arrow.png" alt=""></a></li>
-              <li><a class="dropdown-item" href="#">Запчасти для смартфонов<img src="./images/right-arrow.png" alt=""></a></li>
-        
-            </ul>
-        </div>
-        <div class="nav-item dropdown links categor">
+           <div class="serch-form  old-type">
+            <form  action="" class="old-categor">
+              <img src="./images/search.png" alt="">
+              <input id="search-input" type="text" placeholder="Что вы ищите?">
+              <button id="search-button"><a href="./results-search.html">Поиск</a></button>
+          </form>
+           </div>
+          
+        <div class="nav-item dropdown links categor  old-type">
           <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
              
                   <div class="comp1">
-                   <img  src="./images/profil.png" alt="">
+                   <img  src="./images/comp10.png" alt="">
                   </div>
                    <div class="values">
                        <h6>Товары для животных</h6>
@@ -149,12 +135,53 @@
       
           </ul>
       </div>
+      <div class="nav-item dropdown links categor  old-type">
+        <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+           
+                <div class="comp1">
+                 <img  src="./images/comp13.png" alt="">
+                </div>
+                 <div class="values">
+                     <h6>Товары для животных</h6>
+                     <p>12 подкатегорий</p>
+                 </div>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Смартфоны<img src="./images/right-arrow.png" alt=""></a></li>
+          <li><a class="dropdown-item" href="#">Фитнес браслеты<img src="./images/right-arrow.png" alt=""></a></li>
+          <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+          <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+          <li><a class="dropdown-item" href="#">Ремешки для часов и смарт-часов<img src="./images/right-arrow.png" alt=""></a></li>
+          <li><a class="dropdown-item" href="#">Смарт-часы<img src="./images/right-arrow.png" alt=""></a></li>
+          <li><a class="dropdown-item" href="#">Запчасти для смартфонов<img src="./images/right-arrow.png" alt=""></a></li>
+    
+        </ul>
+    </div>
+    <div class="nav-item dropdown links categor  old-type">
+      <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+         
+              <div class="comp1">
+               <img  src="./images/comp13.png" alt="">
+              </div>
+               <div class="values">
+                   <h6>Товары для животных</h6>
+                   <p>12 подкатегорий</p>
+               </div>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Смартфоны<img src="./images/right-arrow.png" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">Фитнес браслеты<img src="./images/right-arrow.png" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">Аксессуары для смартфонов и телефонов<img src="./images/right-arrow.png" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">Ремешки для часов и смарт-часов<img src="./images/right-arrow.png" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">Смарт-часы<img src="./images/right-arrow.png" alt=""></a></li>
+        <li><a class="dropdown-item" href="#">Запчасти для смартфонов<img src="./images/right-arrow.png" alt=""></a></li>
+  
+      </ul>
+  </div>
            <!--  -->
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+      
       </div>
     </div>
   </div>
